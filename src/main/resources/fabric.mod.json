@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "xiaoanfc",
+	"version": "${version}",
+	"name": "Xiaoan's Farming Core",
+	"description": "This is the core mod to use every Xiaoan's Farming mod.",
+	"authors": [
+		"imxiaoanag"
+	],
+	"contact": {
+		"homepage": "https://imxiaoanag.com/",
+		"sources": "https://github.com/matthewlu070111/xiaoanfc"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/xiaoanfc/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.imxiaoanag.xiaoanfc.XiaoansFarmingCore"
+		],
+		"fabric-datagen": [
+			"com.imxiaoanag.xiaoanfc.XiaoansFarmingCoreDataGenerator"
+		]
+	},
+	"mixins": [
+		"xiaoanfc.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.9",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
