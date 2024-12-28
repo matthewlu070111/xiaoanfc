@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "xiaoanfc:flour"
+    },
+    {
+      "item": "xiaoanfc:flour"
+    },
+    {
+      "item": "minecraft:water_bucket"
+    }
+  ],
+  "result": {
+    "id": "xiaoanfc:dough",
+    "count": 1
+  }
+}

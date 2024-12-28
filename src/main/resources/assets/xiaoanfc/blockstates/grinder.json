@@ -1,0 +1,34 @@
+{
+  "variants": {
+    "facing=east,milling=false": {
+      "model": "xiaoanfc:block/grinder",
+      "y": 90
+    },
+    "facing=north,milling=false": {
+      "model": "xiaoanfc:block/grinder"
+    },
+    "facing=south,milling=false": {
+      "model": "xiaoanfc:block/grinder",
+      "y": 180
+    },
+    "facing=west,milling=false": {
+      "model": "xiaoanfc:block/grinder",
+      "y": 270
+    },
+    "facing=east,milling=true": {
+      "model": "xiaoanfc:block/grinder_milling",
+      "y": 90
+    },
+    "facing=north,milling=true": {
+      "model": "xiaoanfc:block/grinder_milling"
+    },
+    "facing=south,milling=true": {
+      "model": "xiaoanfc:block/grinder_milling",
+      "y": 180
+    },
+    "facing=west,milling=true": {
+      "model": "xiaoanfc:block/grinder_milling",
+      "y": 270
+    }
+  }
+}

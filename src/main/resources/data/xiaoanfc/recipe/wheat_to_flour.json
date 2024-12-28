@@ -1,0 +1,12 @@
+{
+  "type": "xiaoanfc:grinder",
+  "ingredients": [
+    {
+      "item": "minecraft:wheat"
+    }
+  ],
+  "output": {
+    "id": "xiaoanfc:flour",
+    "count": 2
+  }
+}

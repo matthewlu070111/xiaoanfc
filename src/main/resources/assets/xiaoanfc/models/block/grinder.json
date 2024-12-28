@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "north": "xiaoanfc:block/grinder_front",
+    "east": "xiaoanfc:block/grinder_side",
+    "south": "xiaoanfc:block/grinder_side",
+    "west": "xiaoanfc:block/grinder_side",
+    "up": "xiaoanfc:block/grinder_top",
+    "down": "xiaoanfc:block/grinder_bottom",
+    "particle": "xiaoanfc:block/grinder_side"
+  }
+}
