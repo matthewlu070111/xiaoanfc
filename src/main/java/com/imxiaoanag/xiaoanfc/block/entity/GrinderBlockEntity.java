@@ -3,6 +3,7 @@ package com.imxiaoanag.xiaoanfc.block.entity;
 import com.imxiaoanag.xiaoanfc.data.GrinderData;
 import com.imxiaoanag.xiaoanfc.recipe.GrinderRecipes;
 import com.imxiaoanag.xiaoanfc.screen.GrinderScreenHandler;
+import com.imxiaoanag.xiaoanfc.utils.ImplementedInventory;
 import net.fabricmc.fabric.api.screenhandler.v1.ExtendedScreenHandlerFactory;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.entity.BlockEntity;
@@ -27,7 +28,7 @@ import org.jetbrains.annotations.Nullable;
 
 import java.util.Optional;
 
-public class GrinderBlockEntity extends BlockEntity implements ExtendedScreenHandlerFactory<GrinderData>, ImplementedInventory{
+public class GrinderBlockEntity extends BlockEntity implements ExtendedScreenHandlerFactory<GrinderData>, ImplementedInventory {
 
     private final DefaultedList<ItemStack> inventory = DefaultedList.ofSize(2, ItemStack.EMPTY);
 

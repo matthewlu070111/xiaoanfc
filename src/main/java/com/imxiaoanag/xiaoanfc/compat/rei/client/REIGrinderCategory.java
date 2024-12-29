@@ -1,4 +1,4 @@
-package com.imxiaoanag.xiaoanfc.compat.rei;
+package com.imxiaoanag.xiaoanfc.compat.rei.client;
 
 import com.imxiaoanag.xiaoanfc.XiaoansFarmingCore;
 import com.imxiaoanag.xiaoanfc.block.FarmingCoreBlockRegister;
@@ -17,10 +17,10 @@ import net.minecraft.util.Identifier;
 import java.util.ArrayList;
 import java.util.List;
 
-public class GrinderCategory implements DisplayCategory<BasicDisplay> {
+public class REIGrinderCategory implements DisplayCategory<BasicDisplay> {
 
     public static final Identifier TEXTURE = Identifier.of(XiaoansFarmingCore.MOD_ID, "textures/gui/grinder_rei.png");
-    public static final CategoryIdentifier<GrinderDisplay> GRINDER_DISPLAY_CATEGORY_IDENTIFIER = CategoryIdentifier.of(XiaoansFarmingCore.MOD_ID, "grinder");
+    public static final CategoryIdentifier<REIGrinderDisplay> GRINDER_DISPLAY_CATEGORY_IDENTIFIER = CategoryIdentifier.of(XiaoansFarmingCore.MOD_ID, "grinder");
 
     @Override
     public CategoryIdentifier<? extends BasicDisplay> getCategoryIdentifier() {

@@ -8,5 +8,8 @@
 
   "itemGroup.xiaoanfc.xiaoanfc_group": "小安的农业核心",
 
-  "container.grinder": "研磨机"
+  "container.grinder": "研磨机",
+
+  "modmenu.nameTranslation.xiaoanfc": "小安的农业核心",
+  "modmenu.descriptionTranslation.xiaoanfc": "这是使用每个小安的农业模组的核心模组。要在Forge中使用，请安装Sinytra Connector(信雅互联)。"
 }

@@ -1,4 +1,4 @@
-package com.imxiaoanag.xiaoanfc.data;
+package com.imxiaoanag.xiaoanfc.utils;
 
 import net.minecraft.block.entity.BlockEntity;
 import net.minecraft.block.entity.BlockEntityType;

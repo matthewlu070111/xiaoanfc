@@ -1,5 +1,6 @@
 package com.imxiaoanag.xiaoanfc.data;
 
+import com.imxiaoanag.xiaoanfc.utils.BlockPosLoader;
 import net.minecraft.network.RegistryByteBuf;
 import net.minecraft.network.codec.PacketCodec;
 import net.minecraft.util.math.BlockPos;

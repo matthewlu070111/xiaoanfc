@@ -3,7 +3,7 @@
 	"id": "xiaoanfc",
 	"version": "${version}",
 	"name": "Xiaoan's Farming Core",
-	"description": "This is the core mod to use every Xiaoan's Farming mod.",
+	"description": "This is the core mod to use every Xiaoan's Farming mod. You can use Sinytra Connector to use this mod in Forge.",
 	"authors": [
 		"imxiaoanag"
 	],
@@ -19,14 +19,14 @@
 		"main": [
 			"com.imxiaoanag.xiaoanfc.XiaoansFarmingCore"
 		],
+		"client": [
+			"com.imxiaoanag.xiaoanfc.XiaoansFarmingClient"
+		],
 		"fabric-datagen": [
 			"com.imxiaoanag.xiaoanfc.XiaoansFarmingCoreDataGenerator"
 		],
 		"rei_client": [
-			"com.imxiaoanag.xiaoanfc.compat.rei.FCREIClientPlugins"
-		],
-		"emi": [
-			"com.imxiaoanag.xiaoanfc.compat.emi.FCEMIPlugins"
+			"com.imxiaoanag.xiaoanfc.compat.rei.client.FCREIClientPlugins"
 		]
 	},
 	"mixins": [

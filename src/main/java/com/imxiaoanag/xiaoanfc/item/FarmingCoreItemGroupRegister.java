@@ -5,6 +5,7 @@ import com.imxiaoanag.xiaoanfc.block.FarmingCoreBlockRegister;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
+import net.minecraft.item.Items;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.text.Text;
@@ -12,7 +13,7 @@ import net.minecraft.util.Identifier;
 
 public class FarmingCoreItemGroupRegister {
     public static final ItemGroup XIAOANFC_GROUP = FabricItemGroup.builder()
-            .icon(() -> new ItemStack(FarmingCoreItemRegister.MIXING_BOWL))
+            .icon(() -> new ItemStack(Items.WHEAT))
             .displayName(Text.translatable("itemGroup.xiaoanfc.xiaoanfc_group"))
             .entries((context, entries) -> {
                 entries.add(FarmingCoreItemRegister.DOUGH);

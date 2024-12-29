@@ -29,7 +29,5 @@ public class XiaoansFarmingCore implements ModInitializer {
 		FarmingCoreScreenHandlers.initialize();
 		FarmingCoreBlockEntity.initialize();
 		FarmingCoreRecipes.initialize();
-
-		HandledScreens.register(FarmingCoreScreenHandlers.GRINDER_SCREEN_HANDLER, GrinderScreen::new);
 	}
 }

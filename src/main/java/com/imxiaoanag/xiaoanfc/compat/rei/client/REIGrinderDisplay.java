@@ -1,4 +1,4 @@
-package com.imxiaoanag.xiaoanfc.compat.rei;
+package com.imxiaoanag.xiaoanfc.compat.rei.client;
 
 import com.imxiaoanag.xiaoanfc.recipe.GrinderRecipes;
 import me.shedaniel.rei.api.common.category.CategoryIdentifier;
@@ -11,12 +11,12 @@ import net.minecraft.recipe.RecipeEntry;
 import java.util.Collections;
 import java.util.List;
 
-public class GrinderDisplay extends BasicDisplay {
-    public GrinderDisplay(List<EntryIngredient> inputs, List<EntryIngredient> outputs) {
+public class REIGrinderDisplay extends BasicDisplay {
+    public REIGrinderDisplay(List<EntryIngredient> inputs, List<EntryIngredient> outputs) {
         super(inputs, outputs);
     }
 
-    public GrinderDisplay(RecipeEntry<GrinderRecipes> recipe) {
+    public REIGrinderDisplay(RecipeEntry<GrinderRecipes> recipe) {
         super(getInputList(recipe.value()), List.of(EntryIngredient.of(EntryStacks.of(recipe.value().getResult(null)))));
     }
 
@@ -29,6 +29,6 @@ public class GrinderDisplay extends BasicDisplay {
 
     @Override
     public CategoryIdentifier<?> getCategoryIdentifier() {
-        return GrinderCategory.GRINDER_DISPLAY_CATEGORY_IDENTIFIER;
+        return REIGrinderCategory.GRINDER_DISPLAY_CATEGORY_IDENTIFIER;
     }
 }

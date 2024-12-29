@@ -1,4 +1,4 @@
-package com.imxiaoanag.xiaoanfc.block.entity;
+package com.imxiaoanag.xiaoanfc.utils;
 
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.inventory.Inventories;
