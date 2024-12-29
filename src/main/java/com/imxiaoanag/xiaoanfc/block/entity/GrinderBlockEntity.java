@@ -3,7 +3,7 @@ package com.imxiaoanag.xiaoanfc.block.entity;
 import com.imxiaoanag.xiaoanfc.data.GrinderData;
 import com.imxiaoanag.xiaoanfc.recipe.GrinderRecipes;
 import com.imxiaoanag.xiaoanfc.screen.GrinderScreenHandler;
-import com.imxiaoanag.xiaoanfc.utils.ImplementedInventory;
+import com.imxiaoanag.xiaoanfc.util.ImplementedInventory;
 import net.fabricmc.fabric.api.screenhandler.v1.ExtendedScreenHandlerFactory;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.entity.BlockEntity;
