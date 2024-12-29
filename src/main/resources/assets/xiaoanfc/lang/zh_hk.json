@@ -2,11 +2,12 @@
   "block.xiaoanfc.grinder": "研磨機",
 
   "item.xiaoanfc.dough": "生麵團",
+  "item.xiaoanfc.dough_scraps": "生麵團邊角料",
   "item.xiaoanfc.flour": "麵粉",
   "item.xiaoanfc.stir_stick": "攪拌棒",
   "item.xiaoanfc.mixing_bowl": "攪拌碗",
 
-  "itemGroup.xiaoanfc.xiaoanfc_group": "小安的農業核心",
+  "itemGroup.xiaoanfc.xiaoanfc_core": "小安的農業-核心",
 
   "container.grinder": "研磨機",
 
