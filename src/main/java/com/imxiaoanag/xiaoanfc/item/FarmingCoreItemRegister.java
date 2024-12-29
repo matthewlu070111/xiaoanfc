@@ -2,6 +2,7 @@ package com.imxiaoanag.xiaoanfc.item;
 
 import com.imxiaoanag.xiaoanfc.XiaoansFarmingCore;
 import net.minecraft.item.Item;
+import net.minecraft.item.Items;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
@@ -10,7 +11,8 @@ public class FarmingCoreItemRegister {
 
     public static final Item DOUGH = regItem("dough", new Item(new Item.Settings()));
     public static final Item FLOUR = regItem("flour", new Item(new Item.Settings()));
-    public static final Item MIXING_BOWL = regItem("mixing_bowl", new Item(new Item.Settings()));
+    public static final Item STIR_STICK = regItem("stir_stick", new Item(new Item.Settings()));
+    public static final Item MIXING_BOWL = regItem("mixing_bowl", new Item(new Item.Settings().recipeRemainder(Items.BOWL).maxCount(1)));
 
     // Function regItem
     public static Item regItem(String name, Item item) {

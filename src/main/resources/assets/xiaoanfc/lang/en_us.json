@@ -1,8 +1,9 @@
 {
-  "block.xiaoanfc.grinder": "Grinder",
+  "block.xiaoanfc.grinder": "Mill",
 
   "item.xiaoanfc.dough": "Dough",
   "item.xiaoanfc.flour": "Flour",
+  "item.xiaoanfc.stir_stick": "Stir Stick",
   "item.xiaoanfc.mixing_bowl": "Mixing Bowl",
 
   "itemGroup.xiaoanfc.xiaoanfc_group": "Xiaoan's Farming Core",

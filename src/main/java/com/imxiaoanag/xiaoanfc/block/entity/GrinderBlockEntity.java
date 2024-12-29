@@ -1,7 +1,6 @@
 package com.imxiaoanag.xiaoanfc.block.entity;
 
 import com.imxiaoanag.xiaoanfc.data.GrinderData;
-import com.imxiaoanag.xiaoanfc.item.FarmingCoreItemRegister;
 import com.imxiaoanag.xiaoanfc.recipe.GrinderRecipes;
 import com.imxiaoanag.xiaoanfc.screen.GrinderScreenHandler;
 import net.fabricmc.fabric.api.screenhandler.v1.ExtendedScreenHandlerFactory;
@@ -13,7 +12,6 @@ import net.minecraft.inventory.Inventories;
 import net.minecraft.inventory.SimpleInventory;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.Items;
 import net.minecraft.nbt.NbtCompound;
 import net.minecraft.recipe.RecipeEntry;
 import net.minecraft.recipe.input.SingleStackRecipeInput;

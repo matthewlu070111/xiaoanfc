@@ -9,7 +9,8 @@
 	],
 	"contact": {
 		"homepage": "https://imxiaoanag.com/",
-		"sources": "https://github.com/matthewlu070111/xiaoanfc"
+		"sources": "https://github.com/matthewlu070111/xiaoanfc",
+		"issues": "https://github.com/matthewlu070111/xiaoanfc/issues"
 	},
 	"license": "CC0-1.0",
 	"icon": "assets/xiaoanfc/icon.png",
@@ -20,6 +21,12 @@
 		],
 		"fabric-datagen": [
 			"com.imxiaoanag.xiaoanfc.XiaoansFarmingCoreDataGenerator"
+		],
+		"rei_client": [
+			"com.imxiaoanag.xiaoanfc.compat.rei.FCREIClientPlugins"
+		],
+		"emi": [
+			"com.imxiaoanag.xiaoanfc.compat.emi.FCEMIPlugins"
 		]
 	},
 	"mixins": [
@@ -27,7 +34,7 @@
 	],
 	"depends": {
 		"fabricloader": ">=0.16.9",
-		"minecraft": "~1.21",
+		"minecraft": ">=1.21",
 		"java": ">=21",
 		"fabric-api": "*"
 	},
