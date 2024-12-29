@@ -17,8 +17,8 @@ Meanwhile, this mod's submods will also include various craft/smelt recipes to m
 - Submods
 
 ### 🙋 FAQ
-1. **Can I join to pull commit?**<br>
-   Of course, Pull a commit when you want to!
+1. **Can I join to pull requests?**<br>
+   Of course, Pull a request when you want to, and if it really do benefit then it will be merged!
 2. **Can I make submods?**<br>
    Of course, but make sure to use CC0-1.0 as the lisence of your mod.
 3. **Can I contain your mod(s) in my modpack?**<br>
