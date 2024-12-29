@@ -40,5 +40,10 @@
 	},
 	"suggests": {
 		"another-mod": "*"
+	},
+	"custom": {
+		"links": {
+			"modmenu.modrinth": "https://modrinth.com/mod/xiaoanfc"
+		}
 	}
 }

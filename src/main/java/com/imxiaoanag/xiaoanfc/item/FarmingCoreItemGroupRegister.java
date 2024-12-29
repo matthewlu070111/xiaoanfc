@@ -17,7 +17,6 @@ public class FarmingCoreItemGroupRegister {
             .entries((context, entries) -> {
                 entries.add(FarmingCoreItemRegister.FLOUR);
                 entries.add(FarmingCoreItemRegister.DOUGH);
-                entries.add(FarmingCoreItemRegister.DOUGH_SCRAPS);
                 entries.add(FarmingCoreItemRegister.STIR_STICK);
                 entries.add(FarmingCoreItemRegister.MIXING_BOWL);
 

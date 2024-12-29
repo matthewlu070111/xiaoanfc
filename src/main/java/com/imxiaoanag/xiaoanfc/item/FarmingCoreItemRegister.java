@@ -10,8 +10,7 @@ import net.minecraft.util.Identifier;
 public class FarmingCoreItemRegister {
 
     public static final Item FLOUR = regItem("flour", new Item(new Item.Settings()));
-    public static final Item DOUGH = regItem("dough", new Item(new Item.Settings().recipeRemainder(FarmingCoreItemRegister.DOUGH_SCRAPS)));
-    public static final Item DOUGH_SCRAPS = regItem("dough_scraps", new Item(new Item.Settings()));
+    public static final Item DOUGH = regItem("dough", new Item(new Item.Settings()));
     public static final Item STIR_STICK = regItem("stir_stick", new Item(new Item.Settings()));
     public static final Item MIXING_BOWL = regItem("mixing_bowl", new Item(new Item.Settings().recipeRemainder(Items.BOWL)));
 
