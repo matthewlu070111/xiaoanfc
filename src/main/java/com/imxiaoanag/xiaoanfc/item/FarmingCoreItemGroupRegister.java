@@ -11,22 +11,30 @@ import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 
 public class FarmingCoreItemGroupRegister {
-    public static final ItemGroup XIAOANFC_CORE = FabricItemGroup.builder()
-            .icon(() -> new ItemStack(FarmingCoreBlockRegister.GRINDER))
-            .displayName(Text.translatable("itemGroup.xiaoanfc.xiaoanfc_core"))
+    public static final ItemGroup XIAOANFC_MATERIALS = FabricItemGroup.builder()
+            .icon(() -> new ItemStack(FarmingCoreItemRegister.FLOUR))
+            .displayName(Text.translatable("itemGroup.xiaoanfc.xiaoanfc_materials"))
             .entries((context, entries) -> {
                 entries.add(FarmingCoreItemRegister.FLOUR);
                 entries.add(FarmingCoreItemRegister.DOUGH);
+            })
+            .build();
+
+    public static final ItemGroup XIAOANFC_TOOLS = FabricItemGroup.builder()
+            .icon(() -> new ItemStack(FarmingCoreItemRegister.STIR_STICK))
+            .displayName(Text.translatable("itemGroup.xiaoanfc.xiaoanfc_tools"))
+            .entries((context, entries) -> {
+                entries.add(FarmingCoreBlockRegister.GRINDER);
+
                 entries.add(FarmingCoreItemRegister.STIR_STICK);
                 entries.add(FarmingCoreItemRegister.MIXING_BOWL);
-
-                entries.add(FarmingCoreBlockRegister.GRINDER);
             })
             .build();
 
     public static void initialize(){
-        Registry.register(Registries.ITEM_GROUP, Identifier.of(XiaoansFarmingCore.MOD_ID, "xiaoanfc_core"), XIAOANFC_CORE);
+        Registry.register(Registries.ITEM_GROUP, Identifier.of(XiaoansFarmingCore.MOD_ID, "xiaoanfc_materials"), XIAOANFC_MATERIALS);
+        Registry.register(Registries.ITEM_GROUP, Identifier.of(XiaoansFarmingCore.MOD_ID, "xiaoanfc_tools"), XIAOANFC_TOOLS);
 
-        XiaoansFarmingCore.LOGGER.info("Item group registration succeed!");
+        XiaoansFarmingCore.LOGGER.info("Itemgroup registration succeed!");
     }
 }

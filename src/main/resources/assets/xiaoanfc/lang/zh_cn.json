@@ -7,7 +7,8 @@
   "item.xiaoanfc.stir_stick": "搅拌棒",
   "item.xiaoanfc.mixing_bowl": "搅拌碗",
 
-  "itemGroup.xiaoanfc.xiaoanfc_core": "小安的农业-核心",
+  "itemGroup.xiaoanfc.xiaoanfc_materials": "小安的农业-原料",
+  "itemGroup.xiaoanfc.xiaoanfc_tools": "小安的农业-工具",
 
   "container.grinder": "研磨机",
 
