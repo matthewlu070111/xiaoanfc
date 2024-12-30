@@ -1,6 +1,7 @@
 package com.imxiaoanag.xiaoanfc.item;
 
 import com.imxiaoanag.xiaoanfc.XiaoansFarmingCore;
+import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.item.Item;
 import net.minecraft.item.Items;
 import net.minecraft.registry.Registries;
@@ -20,6 +21,12 @@ public class FarmingCoreItemRegister {
     }
 
     public static void initialize() {
+        ItemGroupEvents.modifyEntriesEvent(FarmingCoreItemGroupRegister.XIAOANFC_MATERIALS).register((itemGroup) -> itemGroup.add(FLOUR));
+        ItemGroupEvents.modifyEntriesEvent(FarmingCoreItemGroupRegister.XIAOANFC_MATERIALS).register((itemGroup) -> itemGroup.add(DOUGH));
+
+        ItemGroupEvents.modifyEntriesEvent(FarmingCoreItemGroupRegister.XIAOANFC_TOOLS).register((itemGroup) -> itemGroup.add(STIR_STICK));
+        ItemGroupEvents.modifyEntriesEvent(FarmingCoreItemGroupRegister.XIAOANFC_TOOLS).register((itemGroup) -> itemGroup.add(MIXING_BOWL));
+
         XiaoansFarmingCore.LOGGER.info("Items registration succeed!");
     }
 }

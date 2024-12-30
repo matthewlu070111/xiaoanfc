@@ -2,6 +2,8 @@ package com.imxiaoanag.xiaoanfc.block;
 
 import com.imxiaoanag.xiaoanfc.XiaoansFarmingCore;
 import com.imxiaoanag.xiaoanfc.block.custom.GrinderCustomBlock;
+import com.imxiaoanag.xiaoanfc.item.FarmingCoreItemGroupRegister;
+import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.block.*;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
@@ -27,6 +29,8 @@ public class FarmingCoreBlockRegister {
     }
 
     public static void initialize() {
+        ItemGroupEvents.modifyEntriesEvent(FarmingCoreItemGroupRegister.XIAOANFC_TOOLS).register((itemGroup) -> itemGroup.add(GRINDER));
+
         XiaoansFarmingCore.LOGGER.info("Blocks registration succeed!");
     }
 }
