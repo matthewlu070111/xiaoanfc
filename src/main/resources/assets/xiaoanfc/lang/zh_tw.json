@@ -11,6 +11,11 @@
 
   "container.grinder": "研磨機",
 
+  "itemTooltip.xiaoanfc.hold_shift": "按住Shift鍵以獲取更多信息。",
+  "itemTooltip.xiaoanfc.stir_stick_1": "當碗製作成攪拌碗時，該物品將會在攪拌碗參與",
+  "itemTooltip.xiaoanfc.stir_stick_2": "其他物品合成時被消耗，攪拌碗會轉變為碗。",
+  "itemTooltip.xiaoanfc.stir_stick_3": "",
+
   "modmenu.nameTranslation.xiaoanfc": "小安的農業核心",
   "modmenu.descriptionTranslation.xiaoanfc": "這是使用每個小安的農業模組的核心模組。要在Forge中使用，請安裝Sinytra Connector。"
 }

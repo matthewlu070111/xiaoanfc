@@ -11,6 +11,11 @@
 
   "container.grinder": "Mill",
 
+  "itemTooltip.xiaoanfc.hold_shift": "Hold Shift for more information.",
+  "itemTooltip.xiaoanfc.stir_stick_1": "When a Bowl is crafted into a Mixing Bowl, the item will ",
+  "itemTooltip.xiaoanfc.stir_stick_2": "be consumed when the Mixing Bowl is crafted with other ",
+  "itemTooltip.xiaoanfc.stir_stick_3": "items, and the Mixing Bowl will be converted into a Bowl.",
+
   "modmenu.nameTranslation.xiaoanfc": "Xiaoan's Farming Core",
   "modmenu.descriptionTranslation.xiaoanfc": "This is the core mod to use every Xiaoan's Farming mod. You can use Sinytra Connector to use this mod in Forge."
 }

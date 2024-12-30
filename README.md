@@ -3,8 +3,7 @@
 There will be a bunch of mods depending on this core mod since this core mod provides some basic items and blocks for other submods to use.
 
 ### ❓ Why this mod
-This mod is going to be a connector between the popular Farmer's Delight[[(Neo)Forge](https://modrinth.com/mod/farmers-delight)/[Fabric](https://modrinth.com/mod/farmers-delight-refabricated)] and the classic Pam's Harvest 2[[(Neo)Forge](https://modrinth.com/mod/pams-harvestcraft-2-food-core)] by various new recipes.<br>
-Meanwhile, this mod's submods will also include various craft/smelt recipes to make every mods "connected".
+This mod is going to be a connector between the popular Farmer's Delight[[(Neo)Forge](https://modrinth.com/mod/farmers-delight)/[Fabric](https://modrinth.com/mod/farmers-delight-refabricated)] and all the submods based on this mod!
 
 ### ✅ Compatibility
 - [Roughly Enough Items](https://modrinth.com/mod/rei)
@@ -17,10 +16,10 @@ Meanwhile, this mod's submods will also include various craft/smelt recipes to m
 - Submods
 
 ### 🙋 FAQ
-1. **Can I join to pull requests?**<br>
-   Of course, Pull a request when you want to, and if it really do benefit then it will be merged!
+1. **Can I pull requests?**<br>
+   Of course, pull a request whenever you want to, and if it really does benefit then it will be merged!
 2. **Can I make submods?**<br>
-   Of course, but make sure to use CC0-1.0 as the lisence of your mod.
+   Of course, but make sure to use CC0-1.0 as the licence of your mod.
 3. **Can I contain your mod(s) in my modpack?**<br>
    Do it if you want, you don't have to grant permissions!
 4. **Can I port your mod(s) into (Neo)Forge?**<br>

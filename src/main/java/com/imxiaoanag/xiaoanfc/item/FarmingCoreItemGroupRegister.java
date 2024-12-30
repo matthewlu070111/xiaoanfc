@@ -25,7 +25,7 @@ public class FarmingCoreItemGroupRegister {
             .build();
 
     public static void initialize(){
-        Registry.register(Registries.ITEM_GROUP, Identifier.of(XiaoansFarmingCore.MOD_ID, "xiaoanfc_materials"), XIAOANFC_CORE);
+        Registry.register(Registries.ITEM_GROUP, Identifier.of(XiaoansFarmingCore.MOD_ID, "xiaoanfc_core"), XIAOANFC_CORE);
 
         XiaoansFarmingCore.LOGGER.info("Item group registration succeed!");
     }
