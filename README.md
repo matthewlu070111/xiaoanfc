@@ -1,7 +1,7 @@
 ![Mod icon](https://cdn.modrinth.com/data/cached_images/9c48de5ef5bb7cc0073a3629c6d832fd9cb1b4ba.png)
 ## Welcome to Xiaoan's Farming World!
 [GitHub](https://github.com/matthewlu070111/xiaoanfc) | [Modrinth](https://modrinth.com/mod/xiaoanfc)<br>
-There will be a bunch of mods depending on this core mod since this core mod provides some basic items and blocks for other submods to use.
+**There will be a bunch of mods depending on this core mod since this core mod provides some basic items and blocks for other submods to use.**
 
 ### ❓ Why this mod
 This mod is going to be a connector between the popular Farmer's Delight[[(Neo)Forge](https://modrinth.com/mod/farmers-delight)/[Fabric](https://modrinth.com/mod/farmers-delight-refabricated)] and all the submods based on this mod!
