@@ -1,6 +1,6 @@
 package com.imxiaoanag.xiaoanfc.compat.rei.client;
 
-import com.imxiaoanag.xiaoanfc.block.FarmingCoreBlockRegister;
+import com.imxiaoanag.xiaoanfc.block.FCBlocks;
 import com.imxiaoanag.xiaoanfc.recipe.GrinderRecipes;
 import com.imxiaoanag.xiaoanfc.screen.GrinderScreen;
 import me.shedaniel.math.Rectangle;
@@ -14,7 +14,7 @@ public class FCREIClientPlugins implements REIClientPlugin {
     @Override
     public void registerCategories(CategoryRegistry registry) {
         registry.add(new REIGrinderCategory());
-        registry.addWorkstations(REIGrinderCategory.GRINDER_DISPLAY_CATEGORY_IDENTIFIER, EntryStacks.of(FarmingCoreBlockRegister.GRINDER));
+        registry.addWorkstations(REIGrinderCategory.GRINDER_DISPLAY_CATEGORY_IDENTIFIER, EntryStacks.of(FCBlocks.GRINDER));
     }
 
     @Override

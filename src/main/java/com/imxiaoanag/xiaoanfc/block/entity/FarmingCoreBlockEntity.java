@@ -1,7 +1,7 @@
 package com.imxiaoanag.xiaoanfc.block.entity;
 
 import com.imxiaoanag.xiaoanfc.XiaoansFarmingCore;
-import com.imxiaoanag.xiaoanfc.block.FarmingCoreBlockRegister;
+import com.imxiaoanag.xiaoanfc.block.FCBlocks;
 import com.mojang.datafixers.types.Type;
 import net.minecraft.block.entity.BlockEntity;
 import net.minecraft.block.entity.BlockEntityType;
@@ -13,7 +13,7 @@ import net.minecraft.util.Util;
 
 public class FarmingCoreBlockEntity {
 
-    public static final BlockEntityType<GrinderBlockEntity> GRINDER_BLOCK_ENTITY_TYPE = create("grinder_block_entity_type", BlockEntityType.Builder.create(GrinderBlockEntity::new, FarmingCoreBlockRegister.GRINDER));
+    public static final BlockEntityType<GrinderBlockEntity> GRINDER_BLOCK_ENTITY_TYPE = create("grinder_block_entity_type", BlockEntityType.Builder.create(GrinderBlockEntity::new, FCBlocks.GRINDER));
 
     private static <T extends BlockEntity> BlockEntityType<T> create(String name, BlockEntityType.Builder<T> builder) {
         Type<?> type = Util.getChoiceType(TypeReferences.BLOCK_ENTITY, name);

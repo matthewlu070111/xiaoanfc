@@ -6,9 +6,13 @@
   "item.xiaoanfc.flour": "Flour",
   "item.xiaoanfc.stir_stick": "Stir Stick",
   "item.xiaoanfc.mixing_bowl": "Mixing Bowl",
+  "item.xiaoanfc.egg_separator": "Egg Separator",
+  "item.xiaoanfc.used_egg_separator": "Used Egg Separator",
+  "item.xiaoanfc.iron_stick": "Iron Stick",
 
   "itemGroup.xiaoanfc.xiaoanfc_materials": "Xiaoan's Farming-Materials",
   "itemGroup.xiaoanfc.xiaoanfc_tools": "Xiaoan's Farming-Tools",
+  "itemGroup.xiaoanfc.xiaoanfc_miscellaneous": "Xiaoan's Farming-Miscellaneous",
 
   "container.grinder": "Mill",
 
@@ -16,6 +20,7 @@
   "itemTooltip.xiaoanfc.stir_stick_1": "When a Bowl is crafted into a Mixing Bowl, the item will ",
   "itemTooltip.xiaoanfc.stir_stick_2": "be consumed when the Mixing Bowl is crafted with other ",
   "itemTooltip.xiaoanfc.stir_stick_3": "items, and the Mixing Bowl will be converted into a Bowl.",
+  "itemTooltip.xiaoanfc.used_wash": "You need to wash it to use!",
 
   "modmenu.nameTranslation.xiaoanfc": "Xiaoan's Farming Core",
   "modmenu.descriptionTranslation.xiaoanfc": "This is the core mod to use every Xiaoan's Farming mod. You can use Sinytra Connector to use this mod in Forge."

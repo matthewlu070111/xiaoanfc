@@ -1,4 +1,4 @@
-package com.imxiaoanag.xiaoanfc.item;
+package com.imxiaoanag.xiaoanfc.item.custom;
 
 import net.minecraft.client.gui.screen.Screen;
 import net.minecraft.item.Item;

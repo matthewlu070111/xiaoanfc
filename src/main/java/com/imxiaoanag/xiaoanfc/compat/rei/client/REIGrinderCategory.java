@@ -1,7 +1,7 @@
 package com.imxiaoanag.xiaoanfc.compat.rei.client;
 
 import com.imxiaoanag.xiaoanfc.XiaoansFarmingCore;
-import com.imxiaoanag.xiaoanfc.block.FarmingCoreBlockRegister;
+import com.imxiaoanag.xiaoanfc.block.FCBlocks;
 import me.shedaniel.math.Point;
 import me.shedaniel.math.Rectangle;
 import me.shedaniel.rei.api.client.gui.Renderer;
@@ -34,7 +34,7 @@ public class REIGrinderCategory implements DisplayCategory<BasicDisplay> {
 
     @Override
     public Renderer getIcon() {
-        return EntryStacks.of(FarmingCoreBlockRegister.GRINDER.asItem().getDefaultStack());
+        return EntryStacks.of(FCBlocks.GRINDER.asItem().getDefaultStack());
     }
 
     @Override

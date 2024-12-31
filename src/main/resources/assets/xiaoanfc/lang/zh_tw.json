@@ -6,9 +6,13 @@
   "item.xiaoanfc.flour": "麵粉",
   "item.xiaoanfc.stir_stick": "攪拌棒",
   "item.xiaoanfc.mixing_bowl": "攪拌碗",
+  "item.xiaoanfc.egg_separator": "蛋液分離器",
+  "item.xiaoanfc.used_egg_separator": "用過的蛋液分離器",
+  "item.xiaoanfc.iron_stick": "鐵棍",
 
   "itemGroup.xiaoanfc.xiaoanfc_materials": "小安的農業-原料",
   "itemGroup.xiaoanfc.xiaoanfc_tools": "小安的農業-工具",
+  "itemGroup.xiaoanfc.xiaoanfc_miscellaneous": "小安的農業-雜項",
 
   "container.grinder": "研磨機",
 
@@ -16,6 +20,7 @@
   "itemTooltip.xiaoanfc.stir_stick_1": "當碗製作成攪拌碗時，該物品將會在攪拌碗參與",
   "itemTooltip.xiaoanfc.stir_stick_2": "其他物品合成時被消耗，攪拌碗會轉變為碗。",
   "itemTooltip.xiaoanfc.stir_stick_3": "",
+  "itemTooltip.xiaoanfc.used_wash": "需要洗淨才能使用！",
 
   "modmenu.nameTranslation.xiaoanfc": "小安的農業核心",
   "modmenu.descriptionTranslation.xiaoanfc": "這是使用每個小安的農業模組的核心模組。要在Forge中使用，請安裝Sinytra Connector。"
