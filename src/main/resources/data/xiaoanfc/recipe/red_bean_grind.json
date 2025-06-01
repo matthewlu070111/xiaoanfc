@@ -1,0 +1,12 @@
+{
+  "type": "xiaoanfc:grinder",
+  "ingredients": [
+    {
+      "item": "xiaoanfc:red_bean"
+    }
+  ],
+  "output": {
+    "id": "xiaoanfc:red_bean_paste",
+    "count": 1
+  }
+}

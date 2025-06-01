@@ -1,6 +1,8 @@
 package com.imxiaoanag.xiaoanfc.item;
 
 import com.imxiaoanag.xiaoanfc.XiaoansFarmingCore;
+import com.imxiaoanag.xiaoanfc.item.custom.LotusSeedItem;
+import com.imxiaoanag.xiaoanfc.item.custom.RedBeanItem;
 import com.imxiaoanag.xiaoanfc.item.custom.StirStickItem;
 import com.imxiaoanag.xiaoanfc.util.FCUtilRegister;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
@@ -19,6 +21,9 @@ public class FCItems {
     public static final Item DOUGH = regFCItem("dough", new Item(new Item.Settings()));
     public static final Item YOLK = regFCItem("yolk", new Item(new Item.Settings()));
     public static final Item EGG_WHITE = regFCItem("egg_white", new Item(new Item.Settings()));
+    public static final Item LOTUS_SEED = regFCItem("lotus_seed", new LotusSeedItem(new Item.Settings().food(FCFoods.LOTUS_SEED)));
+    public static final Item RED_BEAN = regFCItem("red_bean", new RedBeanItem(new Item.Settings().food(FCFoods.RED_BEAN)));
+    public static final Item RED_BEAN_PASTE = regFCItem("red_bean_paste", new Item(new Item.Settings().food(FCFoods.RED_BEAN_PASTE)));
 
     // Miscellaneous
     public static final Item IRON_STICK = regFCItem("iron_stick", new Item(new Item.Settings()));
@@ -41,6 +46,9 @@ public class FCItems {
         ItemGroupEvents.modifyEntriesEvent(FCItemGroups.XIAOANFC_MATERIALS).register((itemGroup) -> itemGroup.add(DOUGH));
         ItemGroupEvents.modifyEntriesEvent(FCItemGroups.XIAOANFC_MATERIALS).register((itemGroup) -> itemGroup.add(YOLK));
         ItemGroupEvents.modifyEntriesEvent(FCItemGroups.XIAOANFC_MATERIALS).register((itemGroup) -> itemGroup.add(EGG_WHITE));
+        ItemGroupEvents.modifyEntriesEvent(FCItemGroups.XIAOANFC_MATERIALS).register((itemGroup) -> itemGroup.add(LOTUS_SEED));
+        ItemGroupEvents.modifyEntriesEvent(FCItemGroups.XIAOANFC_MATERIALS).register((itemGroup) -> itemGroup.add(RED_BEAN));
+        ItemGroupEvents.modifyEntriesEvent(FCItemGroups.XIAOANFC_MATERIALS).register((itemGroup) -> itemGroup.add(RED_BEAN_PASTE));
 
         ItemGroupEvents.modifyEntriesEvent(FCItemGroups.XIAOANFC_MISCELLANEOUS).register((itemGroup) -> itemGroup.add(IRON_STICK));
 

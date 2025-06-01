@@ -5,6 +5,7 @@ import com.imxiaoanag.xiaoanfc.block.entity.FarmingCoreBlockEntity;
 import com.imxiaoanag.xiaoanfc.item.FCItemGroups;
 import com.imxiaoanag.xiaoanfc.item.FCItems;
 import com.imxiaoanag.xiaoanfc.item.FCRemainderItems;
+import com.imxiaoanag.xiaoanfc.loot_table.FCLootTableModifiers;
 import com.imxiaoanag.xiaoanfc.recipe.FarmingCoreRecipes;
 import com.imxiaoanag.xiaoanfc.screen.FarmingCoreScreenHandlers;
 import net.fabricmc.api.ModInitializer;
@@ -29,5 +30,6 @@ public class XiaoansFarmingCore implements ModInitializer {
 		FarmingCoreScreenHandlers.initialize();
 		FarmingCoreBlockEntity.initialize();
 		FarmingCoreRecipes.initialize();
+		FCLootTableModifiers.initialize();
 	}
 }

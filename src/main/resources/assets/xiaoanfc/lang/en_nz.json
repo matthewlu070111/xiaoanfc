@@ -11,6 +11,9 @@
   "item.xiaoanfc.iron_stick": "Iron Stick",
   "item.xiaoanfc.yolk": "Yolk",
   "item.xiaoanfc.egg_white": "Egg White",
+  "item.xiaoanfc.lotus_seed": "Lotus Seed",
+  "item.xiaoanfc.red_bean": "Red Bean",
+  "item.xiaoanfc.red_bean_paste": "Red Bean Paste",
 
   "itemGroup.xiaoanfc.xiaoanfc_materials": "Xiaoan's Farming-Materials",
   "itemGroup.xiaoanfc.xiaoanfc_tools": "Xiaoan's Farming-Tools",
@@ -22,7 +25,10 @@
   "itemTooltip.xiaoanfc.stir_stick_1": "When a Bowl is crafted into a Mixing Bowl, the item will ",
   "itemTooltip.xiaoanfc.stir_stick_2": "be consumed when the Mixing Bowl is crafted with other ",
   "itemTooltip.xiaoanfc.stir_stick_3": "items, and the Mixing Bowl will be converted into a Bowl.",
+  "itemTooltip.xiaoanfc.lotus_seed": "Breaking the Lily Pad and you will get the Lotus Seed",
+  "itemTooltip.xiaoanfc.red_bean": "Breaking the Grass and you will get the Red Bean",
   "itemTooltip.xiaoanfc.used_wash": "You need to wash it to use!",
+  "itemTooltip.xiaoanfc.unbaked": "Need to be baked!",
 
   "modmenu.nameTranslation.xiaoanfc": "Xiaoan's Farming Core",
   "modmenu.descriptionTranslation.xiaoanfc": "This is the core mod to use every Xiaoan's Farming mod. You can use Sinytra Connector to use this mod in Forge."
