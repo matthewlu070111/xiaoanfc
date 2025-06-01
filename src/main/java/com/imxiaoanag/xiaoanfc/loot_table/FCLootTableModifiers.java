@@ -1,6 +1,5 @@
 package com.imxiaoanag.xiaoanfc.loot_table;
 
-import com.imxiaoanag.xiaoanfc.block.FCBlocks;
 import com.imxiaoanag.xiaoanfc.item.FCItems;
 import net.fabricmc.fabric.api.loot.v3.LootTableEvents;
 import net.minecraft.block.Blocks;
