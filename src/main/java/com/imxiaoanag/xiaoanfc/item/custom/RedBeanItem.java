@@ -1,6 +1,8 @@
 package com.imxiaoanag.xiaoanfc.item.custom;
 
+import net.minecraft.block.Block;
 import net.minecraft.client.gui.screen.Screen;
+import net.minecraft.item.AliasedBlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.tooltip.TooltipType;
@@ -9,9 +11,10 @@ import net.minecraft.util.Formatting;
 
 import java.util.List;
 
-public class RedBeanItem extends Item {
-    public RedBeanItem(Item.Settings settings) {
-        super(settings);
+public class RedBeanItem extends AliasedBlockItem {
+
+    public RedBeanItem(Block block, Settings settings) {
+        super(block, settings);
     }
 
     @Override

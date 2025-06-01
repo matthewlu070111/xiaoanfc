@@ -1,6 +1,7 @@
 package com.imxiaoanag.xiaoanfc.item;
 
 import com.imxiaoanag.xiaoanfc.XiaoansFarmingCore;
+import com.imxiaoanag.xiaoanfc.block.FCBlocks;
 import com.imxiaoanag.xiaoanfc.item.custom.LotusSeedItem;
 import com.imxiaoanag.xiaoanfc.item.custom.RedBeanItem;
 import com.imxiaoanag.xiaoanfc.item.custom.StirStickItem;
@@ -22,7 +23,7 @@ public class FCItems {
     public static final Item YOLK = regFCItem("yolk", new Item(new Item.Settings()));
     public static final Item EGG_WHITE = regFCItem("egg_white", new Item(new Item.Settings()));
     public static final Item LOTUS_SEED = regFCItem("lotus_seed", new LotusSeedItem(new Item.Settings().food(FCFoods.LOTUS_SEED)));
-    public static final Item RED_BEAN = regFCItem("red_bean", new RedBeanItem(new Item.Settings().food(FCFoods.RED_BEAN)));
+    public static final Item RED_BEAN = regFCItem("red_bean", new RedBeanItem(FCBlocks.RED_BEAN_CROP, new Item.Settings().food(FCFoods.RED_BEAN)));
     public static final Item RED_BEAN_PASTE = regFCItem("red_bean_paste", new Item(new Item.Settings().food(FCFoods.RED_BEAN_PASTE)));
 
     // Miscellaneous
