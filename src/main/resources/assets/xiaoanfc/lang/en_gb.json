@@ -1,5 +1,12 @@
 {
   "block.xiaoanfc.grinder": "Mill",
+  "block.xiaoanfc.apricot_leaves": "Apricot Leaves",
+  "block.xiaoanfc.apricot_sapling": "Apricot Sapling",
+  "block.xiaoanfc.walnut_leaves": "Walnut Leaves",
+  "block.xiaoanfc.walnut_sapling": "Walnut Sapling",
+  "block.xiaoanfc.red_bean_crop": "Red Bean",
+  "block.xiaoanfc.sesame_crop": "Sesame",
+  "block.xiaoanfc.peanut_crop": "Peanut",
 
   "item.xiaoanfc.dough": "Dough",
   "item.xiaoanfc.dough_scraps": "Dough Scraps",
@@ -14,6 +21,13 @@
   "item.xiaoanfc.lotus_seed": "Lotus Seed",
   "item.xiaoanfc.red_bean": "Red Bean",
   "item.xiaoanfc.red_bean_paste": "Red Bean Paste",
+  "item.xiaoanfc.sesame": "Sesame",
+  "item.xiaoanfc.peanut": "Peanut",
+  "item.xiaoanfc.sunflower_seeds": "Sunflower Seeds",
+  "item.xiaoanfc.salted_sunflower_seeds": "Salted Sunflower Seeds",
+  "item.xiaoanfc.apricot": "Apricot",
+  "item.xiaoanfc.almond": "Almond",
+  "item.xiaoanfc.walnut": "Walnut",
 
   "itemGroup.xiaoanfc.xiaoanfc_materials": "Xiaoan's Farming-Materials",
   "itemGroup.xiaoanfc.xiaoanfc_tools": "Xiaoan's Farming-Tools",
@@ -27,6 +41,9 @@
   "itemTooltip.xiaoanfc.stir_stick_3": "items, and the Mixing Bowl will be converted into a Bowl.",
   "itemTooltip.xiaoanfc.lotus_seed": "Breaking the Lily Pad and you will get the Lotus Seed",
   "itemTooltip.xiaoanfc.red_bean": "Breaking the Grass and you will get the Red Bean",
+  "itemTooltip.xiaoanfc.sesame": "Breaking the Grass and you will get the Sesame",
+  "itemTooltip.xiaoanfc.peanut": "Breaking the Grass and you will get the Peanut",
+  "itemTooltip.xiaoanfc.sunflower_seeds": "Breaking the Sunflower and you will get the Sunflower Seeds",
   "itemTooltip.xiaoanfc.used_wash": "You need to wash it to use!",
   "itemTooltip.xiaoanfc.unbaked": "Need to be baked!",
 

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "xiaoanfc:apricot"
+    }
+  ],
+  "result": {
+    "id": "xiaoanfc:almond",
+    "count": 1
+  }
+}

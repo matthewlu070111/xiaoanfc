@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smoking",
+  "ingredient": {
+    "item": "xiaoanfc:sunflower_seeds"
+  },
+  "result": {
+    "id": "xiaoanfc:salted_sunflower_seeds"
+  },
+  "experience": 0.35,
+  "cookingtime": 100
+}

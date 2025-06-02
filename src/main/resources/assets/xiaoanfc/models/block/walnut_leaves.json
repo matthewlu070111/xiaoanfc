@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/leaves",
+  "textures": {
+    "all": "xiaoanfc:block/walnut_leaves"
+  }
+}

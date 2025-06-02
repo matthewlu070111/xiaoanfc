@@ -1,5 +1,12 @@
 {
   "block.xiaoanfc.grinder": "研磨機",
+  "block.xiaoanfc.apricot_leaves": "杏樹葉",
+  "block.xiaoanfc.apricot_sapling": "杏樹樹苗",
+  "block.xiaoanfc.walnut_leaves": "胡桃樹葉",
+  "block.xiaoanfc.walnut_sapling": "胡桃樹樹苗",
+  "block.xiaoanfc.red_bean_crop": "紅豆",
+  "block.xiaoanfc.sesame_crop": "芝麻",
+  "block.xiaoanfc.peanut_crop": "花生",
 
   "item.xiaoanfc.dough": "生麵團",
   "item.xiaoanfc.dough_scraps": "生麵團邊角料",
@@ -14,6 +21,13 @@
   "item.xiaoanfc.lotus_seed": "蓮子",
   "item.xiaoanfc.red_bean": "紅豆",
   "item.xiaoanfc.red_bean_paste": "豆沙",
+  "item.xiaoanfc.sesame": "芝麻",
+  "item.xiaoanfc.peanut": "花生",
+  "item.xiaoanfc.sunflower_seeds": "向日葵種子",
+  "item.xiaoanfc.salted_sunflower_seeds": "瓜子",
+  "item.xiaoanfc.apricot": "杏子",
+  "item.xiaoanfc.almond": "杏仁",
+  "item.xiaoanfc.walnut": "胡桃",
 
   "itemGroup.xiaoanfc.xiaoanfc_materials": "小安的農業-原料",
   "itemGroup.xiaoanfc.xiaoanfc_tools": "小安的農業-工具",
@@ -27,6 +41,9 @@
   "itemTooltip.xiaoanfc.stir_stick_3": "",
   "itemTooltip.xiaoanfc.lotus_seed": "打破睡蓮可以獲得蓮子",
   "itemTooltip.xiaoanfc.red_bean": "打破草可以獲得紅豆",
+  "itemTooltip.xiaoanfc.sesame": "打破草可以獲得芝麻",
+  "itemTooltip.xiaoanfc.peanut": "打破草可以獲得花生",
+  "itemTooltip.xiaoanfc.sunflower_seeds": "打破向日葵可以獲得向日葵種子",
   "itemTooltip.xiaoanfc.used_wash": "需要洗淨才能使用！",
   "itemTooltip.xiaoanfc.unbaked": "需要烘烤！",
 

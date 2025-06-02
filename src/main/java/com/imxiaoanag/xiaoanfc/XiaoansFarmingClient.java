@@ -13,7 +13,16 @@ public class XiaoansFarmingClient implements ClientModInitializer {
     public void onInitializeClient() {
         HandledScreens.register(FarmingCoreScreenHandlers.GRINDER_SCREEN_HANDLER, GrinderScreen::new);
 
+        // Crops
         BlockRenderLayerMap.INSTANCE.putBlock(FCBlocks.RED_BEAN_CROP, RenderLayer.getTranslucent());
+        BlockRenderLayerMap.INSTANCE.putBlock(FCBlocks.SESAME_CROP, RenderLayer.getTranslucent());
+        BlockRenderLayerMap.INSTANCE.putBlock(FCBlocks.PEANUT_CROP, RenderLayer.getTranslucent());
+
+        // Saplings & Leaves
+        BlockRenderLayerMap.INSTANCE.putBlock(FCBlocks.APRICOT_SAPLING, RenderLayer.getTranslucent());
+        BlockRenderLayerMap.INSTANCE.putBlock(FCBlocks.APRICOT_LEAVES, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(FCBlocks.WALNUT_SAPLING, RenderLayer.getTranslucent());
+        BlockRenderLayerMap.INSTANCE.putBlock(FCBlocks.WALNUT_LEAVES, RenderLayer.getCutout());
 
         XiaoansFarmingCore.LOGGER.info("Xiaoan's Farming Core Client Loaded!");
     }
